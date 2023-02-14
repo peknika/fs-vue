@@ -3,16 +3,8 @@ import { Routing } from "@/pages";
 </script>
 
 <template>
-  <header>
-    <Routing />
-  </header>
-
-  <RouterView />
+  <Routing />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+<style>
 </style>

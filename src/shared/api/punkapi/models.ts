@@ -21,5 +21,3 @@ export type Beer = {
   target_og: number;
   volume: any; // {value: 20, unit: "litres"}
 };
-
-export type Beers = Record<Beer["id"], Beer>;

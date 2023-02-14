@@ -1,1 +1,1 @@
-export * from './beers'
+export * from "./beers";

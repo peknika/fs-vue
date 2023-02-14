@@ -26,3 +26,11 @@ export const getBeersList = (
 ): AxiosPromise<Beer[]> => {
   return apiInstance.get(BASE_URL, { params });
 };
+
+export const fetchBeerById = (id: number): AxiosPromise<Beer[]> => {
+  return apiInstance.get(`${BASE_URL}/${id}`);
+};
+
+export const fetchRandomBeer = (): AxiosPromise<Beer[]> => {
+  return apiInstance.get(`${BASE_URL}/random`);
+};
